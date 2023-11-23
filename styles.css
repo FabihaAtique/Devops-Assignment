@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color:  rgb(20, 238, 216); /* HotPink */; 
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: rgb(20, 238, 216); /* HotPink */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 1em;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(61, 243, 243); /* LavenderBlush */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-right: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Additional styles for the Education page */
+#education {
+    margin-top: 20px;
+}
+
+#education h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+#education ul {
+    margin-bottom: 20px;
+}
+
+#education ul li {
+    padding: 10px;
+    background-color: rgb(61, 243, 243); /* Pink */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.home {
+    background-color: rgb(150, 220, 230); /* LightPink */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for the Projects page */
+#project-list li {
+    padding: 20px;
+    background-color: rgb(163, 210, 232); /* LightPink */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about_me{
+    text-align: center;
+}
