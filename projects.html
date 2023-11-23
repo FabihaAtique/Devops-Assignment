@@ -1,3 +1,5 @@
+<!-- projects.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,50 +17,54 @@
     <section id="projects">
         <label for="filter">Filter by Technology:</label>
         <input type="text" id="filter" oninput="filterProjects()">
-        <ul class="home" id="project-list">
-            <!-- Project 1: Hostel Management System -->
-            <li>
-                <h2>Hostel Management System</h2>
-                <p>
-                    The Hostel Management System is a web application facilitating students and wardens in hostel
-                    management. It is built using HTML, CSS, JavaScript, Bootstrap, and PHP for backend connectivity.
-                    SQL is used as the database.
-                </p>
-                <p>
-                    Technologies: HTML, CSS, JavaScript, Bootstrap, PHP, SQL
-                </p>
-            </li>
-            <!-- Project 2: Clothify -->
-            <li>
-                <h2>Clothify</h2>
-                <p>
-                    Clothify is a mobile application developed using the Flutter framework. It aims to simplify and
-                    streamline the process of making clothes for tailors and regular users. The application provides
-                    convenient features for all users involved in the clothing creation process.
-                </p>
-                <p>
-                    Technologies: Flutter framework
-                </p>
-            </li>
-            <!-- Project 3: Parallel Matrix Multiplication -->
-            <li>
-                <h2>Parallel Matrix Multiplication</h2>
-                <p>
-                    Perform parallel matrix multiplication to ensure that computing resources are used optimally. The
-                    tasks will be broken down into smaller tasks and will be performed on different threads.
-                </p>
-                <p>
-                    Technologies: OpenMP, MPI
-                </p>
-            </li>
-            <!-- Add more projects here -->
-        </ul>
+        <div class="content-container">
+            <ul class="home" id="project-list">
+                <!-- Project 1: Hostel Management System -->
+                <li>
+                    <h2>Hostel Management System</h2>
+                    <p>
+                        The Hostel Management System is a web application facilitating students and wardens in hostel
+                        management. It is built using HTML, CSS, JavaScript, Bootstrap, and PHP for backend connectivity.
+                        SQL is used as the database.
+                    </p>
+                    <p>
+                        Technologies: HTML, CSS, JavaScript, Bootstrap, PHP, SQL
+                    </p>
+                </li>
+                <!-- Project 2: Clothify -->
+                <li>
+                    <h2>Clothify</h2>
+                    <p>
+                        Clothify is a mobile application developed using the Flutter framework. It aims to simplify and
+                        streamline the process of making clothes for tailors and regular users. The application provides
+                        convenient features for all users involved in the clothing creation process.
+                    </p>
+                    <p>
+                        Technologies: Flutter framework
+                    </p>
+                </li>
+                <!-- Project 3: Parallel Matrix Multiplication -->
+                <li>
+                    <h2>Parallel Matrix Multiplication</h2>
+                    <p>
+                        Perform parallel Matrix Multiplication to ensure that our computing resources are used in an
+                        optimal
+                        way. The tasks will break down into smaller tasks and will be performed on different threads.
+                    </p>
+                    <p>
+                        Technologies: OpenMP, MPI
+                    </p>
+                </li>
+                <!-- Add more projects here -->
+            </ul>
+        </div>
     </section>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="education.html">Education</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
         </ul>
     </nav>
     <script src="script.js"></script>
